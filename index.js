@@ -100,12 +100,12 @@
 //     console.log(element)
 // })
 
-var sarr = [1, "name", 3, 1, 5];
-// // searching
-// sarr.indexOf(1);
-// sarr.lastIndexOf(1,3);
+// var sarr = [1, "name", 3, 1, 5];
+// // // searching
+// // sarr.indexOf(1);
+// // sarr.lastIndexOf(1,3);
 
-sarr.includes("name");
+// sarr.includes("name");
 
 // var i =1;
 // while(i<=6){
@@ -131,3 +131,74 @@ sarr.includes("name");
 // }
 
 // add(5,3);
+
+// find function disadv - return only 1 value
+// var arr = [1,2,3,4,5];
+// let b = arr.find((elem)=>{
+//     return elem>3;
+// })
+
+// console.log(b);
+
+// filter
+
+// let arr = [1,2,3,4,5];
+
+// const val = arr.filter((elem) => elem>3);
+
+// const arr = ["one","two","three","four"];
+// arr.sort();
+// // it should always be used with string and not numbers
+
+// 1.push
+// let array = ["burger","pizza","gulabjamun"];
+// array.push("maggi");
+
+// 2.unshift
+// array.unshift("rice");
+
+// // 3. pop
+// array.pop();
+
+// // 4.shift
+// array.shift()
+
+// 5. splice
+
+// array.splice(1,1,"coke");
+
+// // 6. map
+// let num = [1,2,3,4,5];
+
+// num.map((elem)=> elem*2).filter((elem)=> elem>5);
+
+// 7. reduce
+// num.reduce((accumulator,elem)=> accumulator+=elem,0);
+// console.log("hello");
+// const box = document.getElementById("box4");
+// document.addEventListener(
+//   "click",
+//   (event) => console.log(event)
+//   event.key.trim() === ""
+//     ? console.log("pressed spacebar")
+//     : console.log(event.key)
+// );
+// box.addEventListener("mouseup", () => (box.style.width = "100px"));
+
+// click, mouseenter mouseleave mousedown mouseup
+
+const box4 = document.getElementById("box4");
+// box4.addEventListener("click", (e) => console.log(e));
+box4.addEventListener(
+  "mousedown",
+  () => (box4.style.transform = "translateY(-300px)")
+);
+box4.addEventListener("mouseup", () => (box4.style.y = "100px"));
+// keydown keup keypress
+// document.addEventListener("keydown", (e) =>
+//   if(e.key === "w"){
+
+//   }else if(e.key === 's'){
+
+//   }
+// );

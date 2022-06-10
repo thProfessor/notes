@@ -23,6 +23,7 @@ body {
   border: 5px solid var(--blue);
   padding: 5px 10px 15px 20px;
   margin: 5px;
+  /* transition: width 2s ease-in-out; */
   /* border-radius: 15px; */
   /* background images */
   border-radius: 10px 0 0 15px;
@@ -34,6 +35,9 @@ body {
 .big {
   height: 500px;
   width: 200px;
+}
+#box4 {
+  transition: width 2s ease-in-out;
 }
 /* #box2 {
   position: relative;
